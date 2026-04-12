@@ -94,3 +94,33 @@ doc.save("filled.docx")
 **Status:** Full automation needs more development
 
 *Last updated: 2026-04-12*
+
+---
+
+## ✅ V4 - Python docxtpl Solution (2026-04-12)
+
+**INSTALLED:** docxtpl library
+
+**How it works:**
+1. Create template with {{PLACEHOLDERS}} like `{{SERIAL}}`, `{{PRODUCT}}`
+2. Use docxtpl.DocxTemplate to open
+3. Render with context dict
+4. Save filled docx
+
+**Example:**
+```python
+from docxtpl import DocxTemplate
+
+doc = DocxTemplate("template_with_placeholders.docx")
+context = {
+    'SERIAL': 'F/11-007',
+    'PRODUCT': 'BatFast',
+    'QTY': 6000
+}
+doc.render(context)
+doc.save("filled.docx")
+```
+
+**Tested:** 2026-04-12 - Successfully created filled F/11!
+
+*Last updated: 2026-04-12*
