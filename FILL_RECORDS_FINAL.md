@@ -71,3 +71,20 @@ When Ahmed says "new project [NAME]":
 **TESTED:** 2026-04-12
 
 *Last updated: 2026-04-12*
+
+---
+
+## ✅ FINAL WORKING METHOD (2026-04-12)
+
+**Steps:**
+1. Copy original template in Drive (preserves format)
+2. Download copy
+3. Use Python docxtpl with its placeholders (already exist in original template!)
+4. Fill context with data
+5. Upload filled document
+
+**Result:** Original format completely preserved!
+
+**Test:** Successfully filled F/11-007 with BatFast data
+
+*Last updated: 2026-04-12*
