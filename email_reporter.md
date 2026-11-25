@@ -11,7 +11,7 @@ Every day at 9:00 AM UTC (or when triggered), I:
 1. Scan Drive folders for changes
 2. Check active projects status
 3. Generate summary report
-4. Email to ibnkhaled16@gmail.com
+4. Email to your-email@example.com
 
 ---
 
@@ -47,8 +47,8 @@ KEPV18 QMS System
 
 ## 📧 Email Settings
 
-- **To:** ibnkhaled16@gmail.com
-- **From:** akh.dev185@gmail.com (via gog)
+- **To:** your-email@example.com
+- **From:** your-email@example.com (via gog)
 - **Format:** Markdown + plain text
 
 ---
@@ -57,8 +57,8 @@ KEPV18 QMS System
 
 Using `gog gmail send`:
 ```bash
-gog gmail send --account akh.dev185@gmail.com \
-  --to ibnkhaled16@gmail.com \
+gog gmail send --account your-email@example.com \
+  --to your-email@example.com \
   --subject "KEPV18 Daily Report - $(date +%Y-%m-%d)" \
   --body "report content"
 ```
