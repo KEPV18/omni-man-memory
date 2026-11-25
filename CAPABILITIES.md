@@ -17,7 +17,7 @@
 ### 🤖 Automation
 - [x] Daily automated scans (9 AM UTC)
 - [ ] Create new project records automatically
-- [ ] Send status reports to ibnkhaled16@gmail.com
+- [ ] Send status reports to your-email@example.com
 
 ### 💻 Development
 - [x] Fix code issues (TypeScript, React)
