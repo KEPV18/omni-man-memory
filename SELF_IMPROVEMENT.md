@@ -37,7 +37,7 @@
 - [ ] Copy template, rename, fill serial, upload to Drive
 
 ### Priority 2 - Reporting
-- [ ] Daily status → ibnkhaled16@gmail.com
+- [ ] Daily status → your-email@example.com
 - [ ] Weekly summary
 - [ ] Monthly report
 
