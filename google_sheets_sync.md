@@ -38,12 +38,12 @@
 
 ### Read Dashboard
 ```bash
-gog sheets get akh.dev185@gmail.com <sheet-id>
+gog sheets get your-email@example.com <sheet-id>
 ```
 
 ### Write Data
 ```bash
-gog sheets update akh.dev185@gmail.com <sheet-id> <range> <values>
+gog sheets update your-email@example.com <sheet-id> <range> <values>
 ```
 
 ---
