@@ -66,7 +66,7 @@
 ### Daily Tasks (9:00 AM UTC)
 1. Scan Drive folder for new files
 2. Generate status report
-3. Send email to ibnkhaled16@gmail.com
+3. Send email to your-email@example.com
 
 ### Automation Rules
 - Any new record → must be in correct F/XX folder
